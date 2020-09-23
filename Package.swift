@@ -16,13 +16,10 @@ let package = Package(
         // .package(url: /* package url */, from: "1.0.0"),
     ],
     targets: [
-        // Targets are the basic building blocks of a package. A target can define a module or a test suite.
-        // Targets can depend on other targets in this package, and on products in packages this package depends on.
-        .target(
+        .binaryTarget(
             name: "VdoCipherKit",
-            dependencies: []),
-        .testTarget(
-            name: "VdoCipherKitTests",
-            dependencies: ["VdoCipherKit"]),
+            url: "https://s3.amazonaws.com/vdocipher/archive/VdoCipherKit_v1.2.2.xcframework.zip",
+            checksum: "cb8cb77335700ecbac99c51d81399a6c791c553af37efe071514c64bd166ba05"
+        )
     ]
 )
