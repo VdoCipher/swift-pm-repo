@@ -4,12 +4,12 @@
 import PackageDescription
 
 let package = Package(
-    name: "VdoCipherKit",
+    name: "VdoFramework",
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
-            name: "VdoCipherKit",
-            targets: ["VdoCipherKit"]),
+            name: "VdoFramework",
+            targets: ["VdoFramework"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -17,9 +17,9 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(
-            name: "VdoCipherKit",
-            url: "https://s3.amazonaws.com/vdocipher/archive/VdoCipherKit_v1.2.2.xcframework.zip",
-            checksum: "cb8cb77335700ecbac99c51d81399a6c791c553af37efe071514c64bd166ba05"
+            name: "VdoFramework",
+            url: "https://vdocipher.s3.amazonaws.com/archive/VdoFramework-2.0.1.xcframework.zip",
+            checksum: "04e993ba2fb476fa464f908d2754fde82f76769ce475e22939d877d1a53ec11c"
         )
     ]
 )
