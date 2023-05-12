@@ -19,8 +19,7 @@ let package = Package(
         .binaryTarget(
             name: "VdoFramework",
             url: "https://vdocipher.s3.amazonaws.com/archive/VdoFramework-2.4.1.xcframework.zip",
-            checksum: "80482fe70e0a26efa05d48e81bad8374cb4dfd09ccc772cd1d2bbf79c1b93071
-"
+            checksum: "80482fe70e0a26efa05d48e81bad8374cb4dfd09ccc772cd1d2bbf79c1b93071"
         )
     ]
 )
