@@ -1,4 +1,3 @@
-0b3842cc347305822f2db850e4dd73e56b8be5e112e9c33825c56228e5d8b502
 // swift-tools-version:5.3
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
@@ -18,8 +17,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "VdoFramework",
-            url: "https://vdocipher.s3.amazonaws.com/archive/VdoFramework-2.9.2.xcframework.zip",
-            checksum: "0b3842cc347305822f2db850e4dd73e56b8be5e112e9c33825c56228e5d8b502"
+            url: "https://vdocipher.s3.amazonaws.com/archive/VdoFramework-2.9.3.xcframework.zip",
+            checksum: "933b8db71ccf65a1a708b40fee230910931c77e732912651d70e4e23a1ed2850"
         )
     ]
 )
